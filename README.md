@@ -14,7 +14,7 @@ Goals:
     - [x] "Single page application" concept
     - [ ] React router package
         - [x] Component-based routing (traditional) vs Object-based routing (new)
-        - [ ] Nested Routes
+        - [x] Nested Routes
             - [ ] component-based absolute
             - [ ] component-based relative
             - [ ] object-based absolute
