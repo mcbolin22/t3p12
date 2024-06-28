@@ -5,6 +5,7 @@ import AboutPage from './pages/about'
 import ContactPage from './pages/contact'
 import HomePage from './pages/home'
 import PageNotFound from './pages/pageNotFound'
+import BaseLayout from './pages/_baseLayout'
 
 export default function App() {
   
@@ -13,12 +14,20 @@ export default function App() {
     <>
       <BrowserRouter>
         <Routes>
-          {/* Component-based routing (traditional) */}
+
+          <Route path='/' element={<BaseLayout />}>
+            <Route index element={<HomePage />} />
+            <Route path='/about' element={<AboutPage />} />
+            <Route path='/contact' element={<ContactPage />} />
+            <Route path='*' element={<PageNotFound />} />
+          </Route>
+
+          {/* Component-based routing (traditional)
           <Route path='/' element={<HomePage />} />
           <Route path='/about' element={<AboutPage />} />
           <Route path='/contact' element={<ContactPage />} />
           {/* Need a page for any not-matched route */}
-          <Route path='*' element={<PageNotFound />} />
+          {/* <Route path='*' element={<PageNotFound />} /> */}
 
           {/* Nested routing */}
           {/* <Route path='/' element={<HomePage />}>
