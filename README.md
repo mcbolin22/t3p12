@@ -10,10 +10,10 @@ Currently, two official plugins are available:
 ## Goals
 
 Goals:
-    - [ ] ReactJS with Vite!
-    - [ ] "Single page application" concept
+    - [x] ReactJS with Vite!
+    - [x] "Single page application" concept
     - [ ] React router package
-        - [ ] Component-based routing (traditional) vs Object-based routing (new)
+        - [x] Component-based routing (traditional) vs Object-based routing (new)
         - [ ] Nested Routes
             - [ ] component-based absolute
             - [ ] component-based relative
@@ -24,4 +24,4 @@ Goals:
             - [ ] Navigate (component)
             - [ ] useNavigate (sneak-peak at React hooks!)
         - [ ] Route params
-            
+
