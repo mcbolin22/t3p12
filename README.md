@@ -15,10 +15,10 @@ Goals:
     - [ ] React router package
         - [x] Component-based routing (traditional) vs Object-based routing (new)
         - [x] Nested Routes
-            - [ ] component-based absolute
-            - [ ] component-based relative
-            - [ ] object-based absolute
-        - [ ] The "Outlet" component
+            - [x] component-based absolute
+            - [x] component-based relative
+            - [x] object-based absolute
+        - [x] The "Outlet" component
         - [ ] Links
         - [ ] Redirection
             - [ ] Navigate (component)
