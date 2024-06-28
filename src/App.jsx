@@ -1,21 +1,25 @@
 
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import './App.css'
 import AboutPage from './pages/about'
 import ContactPage from './pages/contact'
 import HomePage from './pages/home'
 
-function App() {
+export default function App() {
   
 
-  return (
+  return(
     <>
-      <HomePage />
-      <AboutPage />
-      <ContactPage />
-      
-      
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<HomePage />} />
+          <Route path='/about' element={<AboutPage />} />
+          <Route path='/contact' element={<ContactPage />} />
+        </Routes>
+
+      </BrowserRouter>   
     </>
   )
 }
 
-export default App
+
