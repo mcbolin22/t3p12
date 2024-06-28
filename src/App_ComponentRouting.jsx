@@ -20,7 +20,7 @@ export default function App() {
           {/* Need a page for any not-matched route */}
           <Route path='*' element={<PageNotFound />} />
 
-          {/* Object-based routing (new) */}
+          {/* Nested routing */}
           {/* <Route path='/' element={<HomePage />}>
             <Route path='about' element={<AboutPage />}/>
             <Route path='contact' element={<ContactPage />}/>
