@@ -21,7 +21,7 @@ Currently, two official plugins are available:
         - [x] The "Outlet" component
         - [x] Links
         - [ ] Redirection
-            - [ ] Navigate (component)
-            - [ ] useNavigate (sneak-peak at React hooks!)
+            - [x] Navigate (component)
+            - [x] useNavigate (sneak-peak at React hooks!)
         - [ ] Route params
 
