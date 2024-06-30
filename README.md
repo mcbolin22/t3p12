@@ -9,7 +9,7 @@ Currently, two official plugins are available:
 
 ## Goals
 
-Goals:
+- Goals:
     - [x] ReactJS with Vite!
     - [x] "Single page application" concept
     - [ ] React router package
@@ -19,7 +19,7 @@ Goals:
             - [x] component-based relative
             - [x] object-based absolute
         - [x] The "Outlet" component
-        - [ ] Links
+        - [x] Links
         - [ ] Redirection
             - [ ] Navigate (component)
             - [ ] useNavigate (sneak-peak at React hooks!)
