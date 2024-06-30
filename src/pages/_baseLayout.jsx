@@ -1,8 +1,9 @@
 import { Outlet } from "react-router-dom";
+import NavBar from "../components/navBar";
 
 export default function BaseLayout() {
     return <>
-        <h1>Shared layout content</h1>
+        {/* <NavBar /> */}
         <Outlet />
     </>
 }
